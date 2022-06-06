@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64.6px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-weight: 650;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: darkorange;
+}

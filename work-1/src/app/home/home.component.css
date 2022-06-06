@@ -1,0 +1,57 @@
+.main {
+    height: 37em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/assets/Fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+.main_a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.main_b{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-right: 20em;
+
+    width: 500px;
+    height: 400px;
+
+    background-image: url(/assets/aparejo.png);
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+.saludo1 {
+    font-size: 50px;
+    font-family: 'Blaka';
+}
+.saludo2 {
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+}
+.saludo3 {
+    font-size: 40px;
+    font-family: 'Rock Salt', cursive;
+    color: red;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bungee', cursive;
+}
