@@ -1,0 +1,32 @@
+<div class="main">
+
+    <div class="main_F">
+
+    <div class="main_a">
+        <img *ngIf="verfoto" src="/assets/perfil.jpg" alt="">
+        <p>{{nombre}}</p>
+        <button (click)="aparecerfoto()" >Ver Foto</button>
+    </div>
+
+    <div class="main_b">
+
+        <div class="info_1 am">
+            <h2>Informacion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae temporibus blanditiis incidunt quae quis praesentium fuga a natus vitae quasi.</p>
+        </div>
+
+        <div class="info_1 bm">
+            <h2>Habilidades</h2>
+            <p class="habili" *ngFor="let item of habilidades">{{item}}</p>
+        </div>
+
+        <div class="info_1 cm">
+            <h2>Lenguajes de Programacion</h2>
+            <p class="lengua" *ngFor="let item of lenguajes">{{item}}</p>
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
