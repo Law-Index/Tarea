@@ -10,6 +10,9 @@ import { PantallaTresComponent } from './pantalla-tres/pantalla-tres.component';
 import { HomeComponent } from './home/home.component';
 import { EmpresaComponent } from './empresa/empresa.component';
 import { PersonaComponent } from './persona/persona.component';
+import { PantallacuatroComponent } from './pantallacuatro/pantallacuatro.component';
+import { TarjetasComponent } from './tarjetas/tarjetas.component';
+import { TarjetasHijosComponent } from './tarjetas-hijos/tarjetas-hijos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { PersonaComponent } from './persona/persona.component';
     PantallaTresComponent,
     HomeComponent,
     EmpresaComponent,
-    PersonaComponent
+    PersonaComponent,
+    PantallacuatroComponent,
+    TarjetasComponent,
+    TarjetasHijosComponent
   ],
   imports: [
     BrowserModule,
