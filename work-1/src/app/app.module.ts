@@ -13,6 +13,9 @@ import { PersonaComponent } from './persona/persona.component';
 import { PantallacuatroComponent } from './pantallacuatro/pantallacuatro.component';
 import { TarjetasComponent } from './tarjetas/tarjetas.component';
 import { TarjetasHijosComponent } from './tarjetas-hijos/tarjetas-hijos.component';
+import { PantallaCincoComponent } from './pantalla-cinco/pantalla-cinco.component';
+import { OutputsComponent } from './outputs/outputs.component';
+import { OutputPadreComponent } from './output-padre/output-padre.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { TarjetasHijosComponent } from './tarjetas-hijos/tarjetas-hijos.componen
     PersonaComponent,
     PantallacuatroComponent,
     TarjetasComponent,
-    TarjetasHijosComponent
+    TarjetasHijosComponent,
+    PantallaCincoComponent,
+    OutputsComponent,
+    OutputPadreComponent
   ],
   imports: [
     BrowserModule,

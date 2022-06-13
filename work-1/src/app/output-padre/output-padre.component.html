@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="main_h">
+        <div class="info">
+            <h3>Nombres</h3>
+            <p *ngFor="let item of Nombresrecibidos">{{item}}</p>
+        </div>
+        <div class="info">
+            <h3>Edades</h3>
+            <p *ngFor="let item of Edadesrecibidas">{{item}}</p>
+        </div>
+    </div>
+    <app-outputs (canalEdades)="recibirEdades($event)" (canalNombres)="recibirNombres($event)"></app-outputs>
+</div>
